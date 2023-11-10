@@ -10,7 +10,7 @@
 * Fixed FLX subscriptions not being sent to the server if the session was interrupted during bootstrapping. ([realm/realm-core#7077](https://github.com/realm/realm-core/issues/7077), since v10.12.0)
 * Fixed FLX subscriptions not being sent to the server if an upload message was sent immediately after a subscription was committed. ([realm/realm-core#7076](https://github.com/realm/realm-core/issues/7076), since v12.3.0)
 * Fixed application crash with `KeyNotFound` exception when subscriptions are marked complete after a client reset. ([realm/realm-core#7090](https://github.com/realm/realm-core/issues/7090), since v10.19.0)
-
+* When place an embedded object would create a new object and keep the original object too. ([#6239](https://github.com/realm/realm-js/issues/6239), since v12.0.0)
 
 ### Compatibility
 * React Native >= v0.71.4
